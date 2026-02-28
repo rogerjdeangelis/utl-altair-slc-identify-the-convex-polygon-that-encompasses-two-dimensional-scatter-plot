@@ -1,5 +1,3 @@
-# utl-altair-slc-identify-the-convex-polygon-that-encompasses-two-dimensional-scatter-plot
-Altair slc identify the convex polygon that encomapasses a two dimensional scatter plot
     %let pgm=utl-altair-slc-identify-the-convex-polygon-that-encompasses-two-dimensional-scatter-plot;
 
     %stop_submission;
@@ -28,10 +26,10 @@ Altair slc identify the convex polygon that encomapasses a two dimensional scatt
           0 +   \     ..  ..... ..  . . /     +        -1.74895     0.56657
             |    \.   .. ......    ..../      |        -0.96361     1.26744
             |     \  . ... ...  .    ./       |        -0.54490     1.59209
-            |      \ ...  .-----. .. /        |         0.52215     1.68854
-            |       \..  /       \../         |         0.81345     1.50988
-            |        \  /         ./          |         0.99525     1.36038
-            |         ./                      |         1.66283    -0.20944
+            |      \ ...          .. /        |         0.52215     1.68854
+            |       \..           ../         |         0.81345     1.50988
+            |        .-------------/          |         0.99525     1.36038
+            |                                 |         1.66283    -0.20944
           2 +                                 +
             -+---------------+---------------+-
             -2               0               2
@@ -139,3 +137,4 @@ Altair slc identify the convex polygon that encomapasses a two dimensional scatt
      \___|_| |_|\__,_|
 
     */
+
