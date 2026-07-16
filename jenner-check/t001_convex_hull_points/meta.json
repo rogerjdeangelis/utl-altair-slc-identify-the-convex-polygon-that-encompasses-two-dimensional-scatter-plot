@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_convex_hull_points",
+  "source_file": "utl-altair-slc-identify-the-convex-polygon-that-encompasses-two-dimensional-scatter-plot.sas",
+  "source_blob_sha": "22ebf20c23d60d294947629e0517e6be45ae4e9a",
+  "source_commit": "9c962dfebf64ae785e0d1da6d48a63091b4de391",
+  "notes": "Script generates 2-D scatter points (accept/reject inside radius^2<=3 circle via streaminit(1234)/rand('normal')) then hands them to PROC R's chull() for the convex hull boundary. Kept the point-generation DATA step verbatim (same seed, same test) and swapped LIBNAME WORKX (d:/wpswrkx) for WORK; dropped the PROC R leg since it depends on a local R install and hardcoded Windows paths that aren't reachable from a hosted engine. Added PROC PRINT/PROC MEANS on the generated points to exercise real output against the same data the original script feeds to chull()."
+}
